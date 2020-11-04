@@ -6,6 +6,7 @@ import Cards from './dbCards.js'
 
 // App Config
 // nodemon --experimental-modules server.js
+// heroku logs --tail
 const app = express() // create instance
 const port = process.env.PORT || 8001
 const connection_url = 'mongodb+srv://admin:tolang0825@cluster0.9f5ua.mongodb.net/tinderdb?retryWrites=true&w=majority'
